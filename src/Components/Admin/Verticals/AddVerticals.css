@@ -1,0 +1,48 @@
+.select{
+    margin-bottom: 20px;
+
+}
+
+
+.lecture-description-section .lecture-description-label{
+    width:26% !important;
+}
+
+.colorPicker{
+    margin: 10px 10px;
+}
+.hashColor{
+    margin:100px;
+    font-family: 'OpenSans-B';
+    font-size: 25px;
+}
+
+.lecture-description-section .lecture-description-style{
+
+        transition: all .3s;
+        outline: none;
+        box-shadow: none;
+        border: 1px solid grey;
+        border-radius: 4px;
+        /* background-color: transparent; */
+        box-sizing: border-box;
+        background-color: white;
+    
+    
+}
+
+.lecture-duration-form{
+    width:95% !important;
+}
+
+
+.admin-button-style-margin{
+    margin-right: 4px;
+}
+.admin-button-style{
+    /* height: 32px; */
+}
+.reactSelectName{
+    width: 300px !important;
+    margin-left: 20px;
+}

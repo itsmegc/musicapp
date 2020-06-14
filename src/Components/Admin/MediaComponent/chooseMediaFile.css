@@ -1,0 +1,38 @@
+.admin_btn {
+    background-color: #008ec2!important;
+    height: 6vh;
+    line-height: .5px!important;
+    display: flex;
+    align-items: center;
+    font-size: unset;
+    width: 132px;
+    border: 1px solid #006799;
+    justify-content: center;
+    border-radius: 5px;
+}
+.navbar-dark{
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+.media_input_div_modal{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.modal_top_padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.media_image_modal{
+    padding-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+}
+.w-40{
+    width: 100% !important;
+}
+
+.admin-button-style-margin{
+    margin-right: 4px;
+}

@@ -1,0 +1,49 @@
+.top-card{
+    flex:1;
+    height:110px;
+    margin:0px 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    padding-top: 10px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.top-card-text{
+    text-align: end;
+    padding: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+.select-exam{
+    padding: 10px;
+    /* width: 100%; */
+    text-align: end;
+    font-weight: bold;
+    color: #0689e8;
+    cursor: pointer;
+}
+
+.piediv{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.view_all_report{
+    color: #1761a0;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+}
+.report-td{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+   
+}

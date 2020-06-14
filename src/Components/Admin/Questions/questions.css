@@ -1,0 +1,54 @@
+.question-form{
+    width:60%;
+}
+
+
+.add-question-page .answer-section label{
+    width:210px;
+}
+
+.correct-answer-form{
+    width:50%
+}
+
+.other-answer-form{
+    width:100%;
+    margin-top:5px;
+}
+
+.set-answer{
+    margin:10px 0px 0px auto;
+    max-width:200px !important;
+}
+
+.question-label{
+    font-size:18px;
+    font-family: Ubuntu-B;
+}
+
+
+.answers-image{
+    width:50px;
+    height:50px;
+    margin-left:10px;
+    margin-right:15px;
+}
+
+
+
+#add-subject-page .question-label{
+    width:100%
+}
+
+#add-subject-page .question-label + .select{
+    width:100%
+}
+
+
+.right-answer-section label{
+    width:26%;
+}
+
+.other-answers-section label{
+    width:26%
+}

@@ -1,0 +1,7 @@
+.exams-column table th {
+    font-size:18px
+}
+
+.exams-column table tr td:first-child {
+    font-size:18px;
+}

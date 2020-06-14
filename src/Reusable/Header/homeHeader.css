@@ -1,0 +1,91 @@
+.fab, .far {
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+.fab:hover {
+   
+    color: black;
+   
+}
+
+
+
+
+.headerMain{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.6);
+position: fixed;
+}
+
+.headerMenu{
+    color: white;
+    width: auto;
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+
+.navMenu{
+display: flex;
+
+}
+.logoSize{
+    width: 60px;
+}
+
+.serachInput{
+    height: 30px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+
+.buttonFill {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    display: block;
+  
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .8s ease-out;
+  }
+  
+  .buttonFill:hover {
+    background-position: left bottom;
+  }
+  
+  .textbtn {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+  }
+  
+  .textbtn:hover {
+    color: white;  
+  }
+
+
+
+
+
+
+.iconNew{
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}

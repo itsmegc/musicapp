@@ -1,0 +1,40 @@
+.topic-lectures-section{
+    height:600px;
+}
+
+
+
+#add-subject-page  .drag-drop-topic-list .item{ 
+    height:50px;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 15px;
+    cursor:grabbing;
+    margin: 10px 0px;
+}
+
+.drag-drop-topic-list .item p{
+    margin-bottom:0px;
+    font-family: Ubuntu-M;
+    font-size:18px;
+}
+.drag-drop-topic-list .item .delete-subject-topic-button{
+    background-color: transparent;
+    border: none;
+}
+.topic-structure-column .drag-drop-topic-list .item .fa-trash{
+    color:red;
+    cursor:pointer;
+}
+.check_input{
+    width: auto !important;
+    margin-top: 0px;
+    padding-right: 10px;
+}
+
+.include_label{
+padding: 10px !important;
+}

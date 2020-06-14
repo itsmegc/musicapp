@@ -1,0 +1,12 @@
+.containerArrtist {
+
+    height: 85vh;
+    background: linear-gradient(-45deg, #ee7752, #23d5ab); 
+  }
+
+
+  .containerLyricist {
+
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5); 
+    height: 85vh;
+  }

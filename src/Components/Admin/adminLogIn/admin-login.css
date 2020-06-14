@@ -1,0 +1,72 @@
+.admin-email-input {
+    background:none !important;
+}
+
+
+
+.light-blue-gradient{
+    background: linear-gradient(40deg, #c7c7c7, #0ab1a9) !important;
+}
+.recaptcha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+    
+
+@media screen and (min-width: 900px){
+    .loginMain{
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+       
+    
+    }
+    .loginDiv{
+    background-color: rgba(255, 255, 255,.8)
+    }
+    .loginB{
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: #dbaa34;
+        border: 1px solid #dbaa34;
+        cursor: pointer;
+        padding-top: 0.5vw;
+        padding-bottom: .5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 13px;
+        width: max-content;
+        margin: 1vw;
+        color:#fff
+    }
+    .loginB:hover{
+        box-shadow: 1px 1px 2px 1px rgba(0,0,0,.2);
+    }
+    .videoButton:hover{
+        
+        box-shadow: 1px 1px 2px 1px rgba(0,0,0,.2);
+      
+      }
+      .md-form {
+        position: relative;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    
+    }
+@media screen and (min-width: 1100px){
+    
+    }
+    @media screen and (min-width: 1300px){
+    
+    }
+    @media screen and (min-width: 1800px){
+    
+    
+    }

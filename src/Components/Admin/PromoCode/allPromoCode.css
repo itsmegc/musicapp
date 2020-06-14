@@ -1,0 +1,288 @@
+#promo-code-page{
+    width:100%;
+    overflow: hidden;
+}
+
+.actions_div:hover{
+    visibility: visible !important;
+}
+#promo-code-page .subject-list-column{
+    width:100%;
+}
+
+#promo-code-page .add-subject-column{
+    width:100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.subject-name-form{
+    width: 30%;
+}
+
+.subject-subtitle-form{
+    width:60%;
+}
+
+.cost-form{
+}
+
+
+.select-authors{
+    color:black;
+}
+
+.select-authors > *{
+    color: black !important;
+}
+
+
+#promo-code-page .image-section input {
+    display:block
+}
+
+
+
+#promo-code-page .thumbnail-container{
+    position: relative;
+}
+
+#promo-code-page .thumbnail-container .subject-thumbnail-img{
+    width: 50%;
+    height: auto;
+}
+
+#promo-code-page .thumbnail-container i{
+    position: absolute;
+    top: -15px;
+    right: 45%;
+    cursor:pointer;
+}
+
+
+#promo-code-page .add-subject-column hr{
+    margin: 19px auto;
+    border: 1px solid #828282;
+    width: 100%;
+}
+
+
+#promo-code-page .subject-description-container label,
+#promo-code-page .learning-requirements-container label,
+#promo-code-page .learning-topics-container label{
+    vertical-align:top;
+ }
+
+ #promo-code-page .subject-description-textarea,#promo-code-page .learning-requirement-textarea,
+ #promo-code-page .learning-topic-textarea{
+    resize: both;
+    min-width: 60%;
+    background-origin: border-box;
+    padding: 10px;
+    height: 100px;
+    /* color: #212121; */
+    background-color: #f9f9f9;
+}
+
+
+#promo-code-page .learning-requirement, #edit-subject-page .learning-requirement{
+    position:relative
+}
+
+#promo-code-page .subject-description-container .add-description-button,#promo-code-page .learning-requirements-container .add-requirement-button,
+#promo-code-page .learning-topics-container .add-topic-button {
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+#promo-code-page .subject-description-container{
+    
+}
+
+#promo-code-page .subject-description-container .subject-description,
+#promo-code-page .learning-requirements-container .subject-description,
+#promo-code-page .learning-topics-container .learning-topic{
+    position: relative;
+}
+
+
+
+#promo-code-page .subject-description-container .subject-description .cross_icon,
+#promo-code-page .learning-requirements-container .learning-requirement .cross_icon,
+#promo-code-page .learning-topics-container .learning-topic .cross_icon
+{
+    cursor: pointer;
+    /* bottom: 0; */
+    position: absolute;
+    right: 37%;
+}
+
+
+#promo-code-page .subject-topics-container{
+    min-height:500px;
+}
+
+#promo-code-page .subject-topics-list-dropdown-button{
+    width:100%;
+    margin:0px;
+}
+
+
+#promo-code-page .show-topics-list-button{
+    padding: 10px 20px;
+    width: 100%;
+    /* float: left; */
+    text-align: left;
+    border: 1px solid darkgrey;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topic-list-column{
+   
+}
+.topic-list-picky-container{
+    padding: 20px 20px;
+    background-color: #ececec;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topic-list-picky-container .add-subject-topics-button{
+    width:55%; 
+    float: right;
+}
+
+.topic-structure-column{
+
+}
+
+.topic-list-picky-container .picky__dropdown{
+   box-shadow: 0px 8px 9px 0px #c1c1c1;
+}
+
+#promo-code-page .topic-structure-column .drag-drop-topic-list{
+    background-color: #dedede;
+    padding: 0px 40px 35px;
+}
+
+
+#promo-code-page .topic-structure-column .drag-drop-topic-list .item{ 
+    height:50px;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 15px;
+    cursor:grabbing;
+    margin: 10px 0px;
+}
+
+.topic-structure-column .drag-drop-topic-list .item p{
+    margin-bottom:0px;
+    font-family: Ubuntu-M;
+    font-size:18px;
+}
+.drag-drop-topic-list .item .delete-subject-topic-button{
+    background-color: transparent;
+    border: none;
+}
+.topic-structure-column .drag-drop-topic-list .item .fa-trash{
+    color:red;
+    cursor:pointer;
+}
+
+
+/* #add-product-page .swal-button--cancel{
+    color:white !important;
+    background-color:red;
+} */
+
+.promo-pic{
+    width:25%;
+}
+
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1800px)  {
+ 
+}
+
+ 
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+
+
+}
+
+
+
+.add-subject{
+    background: #0085ba;
+    border-color: #006a95 #00648c #00648c;
+    box-shadow: inset 0 -1px 0 #00648c;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #005d82, 1px 0 1px #005d82, 0 1px 1px #005d82, -1px 0 1px #005d82;
+    border-radius: 3px;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    margin-right:15px;
+    margin-left:auto
+  
+}
+
+/* .add-subject:hover{
+    background: #0073aa;
+    color: #f7f7f7;
+} */
+
+
+.subject-topics-container > .row{
+    background-color: #DEDEDE;
+    padding: 10px;
+}
+
+.course-status-icon{
+    cursor:pointer
+}
+
+.promo-code-td{
+    cursor:pointer
+}
+.edit-promo-button{
+    opacity:0;
+    font-size:12px;
+    background-color: transparent;
+    border: none;
+    margin-top:5px
+}
+
+.promo-code-td:hover > .edit-promo-button{
+    opacity: 1;
+}
+
+
+#add-subject-page .max-off-label, 
+#add-subject-page .discount-label,
+#add-subject-page .usage-limit-label, 
+#add-subject-page .min-order-label{
+    width:100%
+}
+
+
+#promo-code-page .promocode-type{
+    width:60%;
+}

@@ -1,0 +1,39 @@
+.promoTypeDiv{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.promocode-type{
+    width:60% !important;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.promocode-discount-form, .promocode-max-off-form, .promocode-usage-limit-form,
+.promocode-min-order-form{
+    width:50%;
+}
+
+.promo-thumbnail-img{
+    width:50%;
+}
+
+
+#promo-code-page table th{
+    font-size:18px;
+    font-weight:bolder;
+}
+
+
+#promo-code-page table tr td:nth-child(1),#promo-code-page table tr td:nth-child(2),#promo-code-page table tr td:nth-child(3),#promo-code-page table tr td:nth-child(4){
+    font-size: 16px;
+    color: rgb(0,115,170);
+}
+
+#promo-code-page table tr td:nth-child(5),#promo-code-page table tr td:nth-child(6){
+font-size: 16px;
+    color: gray;
+}
+
+

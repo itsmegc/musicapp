@@ -1,0 +1,28 @@
+.form-div {
+  margin: 2% 5%;
+  width: 25%;
+}
+
+.CustomFileInput {
+  display: none;
+}
+
+.CustomFileUpload {
+  border: 1px solid black;
+  display: inline-block;
+  /* padding: 2% 0% 2% 0%; */
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+  height: 35px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.iconarrow{
+  position: absolute;
+  top: 0;
+  right: 110px;
+  
+}

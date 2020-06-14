@@ -1,0 +1,23 @@
+
+#subject-list-page{
+    width:100%;
+    overflow:hidden;
+}
+
+#subject-list-page .subject-list-column{
+    width:100%;
+}
+
+#subject-list-page .pages_table tbody tr td:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#subject-list-page .pages_table tbody tr td:first-child button{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    margin-top:30px;
+    color:blue
+}

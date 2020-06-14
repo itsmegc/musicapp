@@ -1,0 +1,58 @@
+
+#order-list-page{
+    width:100%;
+    overflow:hidden;
+}
+
+#order-list-page .order-list-column{
+    width:100%;
+}
+
+#order-list-page .pages_table tbody tr td:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#order-list-page .pages_table tbody tr td:first-child button{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    margin-top:30px;
+    color:blue
+}
+
+
+#order-list-page  .product-order-details-container{
+    border: 1px solid black;
+    padding: 12px 50px;
+    margin: 10px 40px 0px;
+}
+
+.product-order-details-container hr{
+    border:0.5px solid grey !important;
+    width:100%;
+    margin: 25px 0px;
+}
+
+#order-list-page .package-name-column{
+
+}
+
+#order-list-page .purchase-date-amount-column{
+    display:flex;
+    justify-content: space-between;
+}
+
+#order-list-page .status-column{
+
+}
+
+#order-list-page .transaction-column{
+display: flex;
+justify-content: space-between;
+}
+
+#order-list-page .refund-column{
+
+}
