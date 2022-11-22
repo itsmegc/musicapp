@@ -21,7 +21,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-picky": "^5.2.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-select": "^3.1.0",
     "react-slick": "^0.26.1",
     "react-spinners": "^0.8.3",
